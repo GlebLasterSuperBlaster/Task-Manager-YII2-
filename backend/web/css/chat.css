@@ -1,0 +1,26 @@
+.chat_direction{
+    display: flex;
+    flex-direction: column;
+}
+#ChatMessages{
+    border: 1px solid ;
+    border-radius: 10px;
+    font-family: "Times New Roman", serif;
+    width: 228px;
+}
+
+.send_text{
+    border: 1px solid ;
+    border-radius: 10px;
+    font-family: "Times New Roman", serif;
+}
+
+.send_text:focus, input:focus
+{
+    outline: none;
+}
+
+#ChatMessages:focus, input:focus
+{
+    outline: none;
+}
